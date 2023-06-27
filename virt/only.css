@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    user-select: none;
+}
+header{
+    width: 100vw;
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    border: 0.03vw solid;
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+.header2{
+    position: absolute;
+}
+.logo{
+    width: 4vw;
+    height: 4vw;
+    margin-top: 1vw;
+}
+.title{
+    font-size: 2vw;
+    font-weight: 100;
+    margin-top: 1.75vw;
+    margin-left: 2vw;
+    margin-right: 44vw;
+}
+.butt_header{
+    font-size: 1.5vw;
+    font-weight: 100;
+    text-decoration: none;
+    color: #000;
+    margin-top: 2vw;
+    margin-right: 3vw;
+}
+.first_screen{
+    width: 100vw;
+    height: 46.3vw
+}
+.background{
+    width: 100vw;
+    height: 46.3vw  
+}
+.say_no_more{
+    font-size: 3vw;
+    font-weight: 200;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0.03vw 0.03vw 0.03vw #000000;
+    margin-top: -30vw;
+}
+.dropbtn{
+    position: absolute;
+    background-color: #ff0000;
+    color: white;
+    padding: 0.75vw;
+    font-size: 1.25vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5vw;
+    margin-left: 1vw;
+    margin-top: -45vw;
+}
+  
+.dropbtn:hover, .dropbtn:focus{
+    background-color: #ff0000;
+}
+  
+.dropdown{
+    position: absolute;
+    display: inline-block;
+}
+  
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 10vw;
+    overflow: auto;
+    z-index: 1;
+    margin-top: -42vw;
+    margin-left: 1vw;
+}
+  
+.dropdown-content a{
+    font-size: 1.5vw;
+    color: black;
+    padding: 0.75vw 1vw;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover {
+    background-color: #ddd;
+}
+.show {
+    display: block;
+}
+#onface{
+    position: absolute;
+    background-color: #ff0000;
+    color: white;
+    padding: 0.5vw;
+    font-size: 1vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5vw;
+    margin-left: 50vw;
+    margin-top: -3.5vw;
+}
+#behind{
+    position: absolute;
+    background-color: #ff0000;
+    color: white;
+    padding: 0.5vw;
+    font-size: 1vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5vw;
+    margin-left: 43vw;
+    margin-top: -3.5vw;
+}
